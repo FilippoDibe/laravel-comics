@@ -21,5 +21,25 @@
             </div>
         </div>
     </div>
+    <div class="middle-blue-bar">
+        <div class="content-container">
+            <a href="#" class="blue-bar-item">
+                <img src="/img/buy-comics-digital-comics.png" alt="Digital Comics" class="blue-bar-icon"> DIGITAL COMICS
+            </a>
+            <a href="#" class="blue-bar-item">
+                <img src="/img/buy-comics-merchandise.png" alt="DC Merchandise" class="blue-bar-icon"> DC MERCHANDISE
+            </a>
+            <a href="#" class="blue-bar-item">
+                <img src="/img/buy-comics-subscriptions.png" alt="Subscription" class="blue-bar-icon"> SUBSCRIPTION
+            </a>
+            <a href="#" class="blue-bar-item">
+                <img src="/img/buy-comics-shop-locator.png" alt="Comic Shop Locator" class="blue-bar-icon"> COMIC SHOP
+                LOCATOR
+            </a>
+            <a href="#" class="blue-bar-item">
+                <img src="/img/buy-dc-power-visa.svg" alt="DC Power Visa" class="blue-bar-icon"> DC POWER VISA
+            </a>
+        </div>
+    </div>
     <script src="{{ asset('js/app.js') }}"></script>
 @endsection

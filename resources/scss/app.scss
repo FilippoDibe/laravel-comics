@@ -8,7 +8,7 @@
 
         background-color: white;
 
-        width: 100%;
+
         box-sizing: border-box;
     }
     .nav-link{
@@ -141,6 +141,7 @@
         margin: auto;
         padding-top: 100px;
         text-align: start;
+        display: flex;
         .info-info{
             width: 65%;
 
@@ -176,6 +177,16 @@
                 line-height: 1.7;
             }
         }
+        .publicita{
+            height: 200px;
+            width: 25%;
+            // background-color: red;
+            margin: 0 50px;
+        }
+
+    }
+    .spec-container{
+        display: flex;
     }
 
 //////////////////////////////////////////////////////
@@ -196,6 +207,8 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+
+
 
 
         .blue-bar-item {
@@ -223,7 +236,6 @@
     background-image: url('/img/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
     text-align: start;
 
 

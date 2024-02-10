@@ -24,5 +24,12 @@
             </div>
             <p class="description">{{ $comic['description'] }}</p>
         </div>
+        <div class="publicita">
+            {{-- il blocco con l'immagine con il codice sconto  --}}
+        </div>
+    </div>
+    <div class="spec-container">
+        <h2>talent</h2>
+        <h2>specs</h2>
     </div>
 @endsection
