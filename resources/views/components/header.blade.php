@@ -2,7 +2,7 @@
     <div class="logo">
         <img src="/img/dc-logo.png" alt="logo">
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg  ">
         <ul class="d-flex  list-unstyled">
             <li class="m-4"><a class="nav-link" href="/characters">Characters</a></li>
             <li class="m-4"><a class="nav-link" href="/comics">Comics</a></li>
