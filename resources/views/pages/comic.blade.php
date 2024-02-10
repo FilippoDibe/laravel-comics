@@ -5,15 +5,24 @@
 @endsection
 
 @section('content')
-    <div class="container-main">
-        <div class="comic-details">
-            <div class="comic-image">
-                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+    <div class="blue-row">
+        <img src="{{ $comic['thumb'] }}" class="img-comic" alt="{{ $comic['title'] }}">
+    </div>
+    <div class="info-container">
+        <div class="info-info">
+            <h1>{{ $comic['title'] }}</h1>
+            <div class="green-botton">
+                <div class="price">
+                    <span>
+                        U.S Price {{ $comic['price'] }}
+                    </span>
+                    <span class="stato">AVAIABLE</span>
+                </div>
+                <div class="check-avaiable">
+                    Check avaiable ^
+                </div>
             </div>
-            <div class="comic-info">
-                <h2>{{ $comic['title'] }}</h2>
-                <p>{{ $comic['description'] }}</p>
-            </div>
+            <p class="description">{{ $comic['description'] }}</p>
         </div>
     </div>
 @endsection

@@ -120,6 +120,66 @@
 
 //////////////////////////////////////////////////////
 
+////////////////////////////////////////////////////////
+/// STILE PAGINA COMIC
+
+    .blue-row{
+        height: 80px;
+        background-color:#007dc3;
+
+        .img-comic{
+            background-color: white;
+            height: 250px;
+            width: 180px;
+            position: absolute;
+            top:45%;
+            left:15%;
+        }
+    }
+    .info-container{
+        width: 80%;
+        margin: auto;
+        padding-top: 100px;
+        text-align: start;
+        .info-info{
+            width: 65%;
+
+            h1{
+                font-size: 30px;
+                color: #0056b3;
+            }
+            .green-botton{
+                display: flex;
+                justify-content: space-between;
+
+                background-color: rgb(8, 201, 37);
+                color:white;
+                .price{
+                    display: flex;
+                    padding: 15px ;
+                    justify-content: space-between;
+                    width: 75%;
+                    border: 1px solid black;
+                    .stato{
+                        color: rgba(244, 241, 241, 0.81);
+                    }
+                }
+                .check-avaiable{
+                    width: 25%;
+                    padding: 15px ;
+                    border: 1px solid black;
+                    border-left: none;
+                }
+            }
+            .description{
+                padding-top: 30px;
+                line-height: 1.7;
+            }
+        }
+    }
+
+//////////////////////////////////////////////////////
+
 
 
 ////////////////////////////////////////////////////////
