@@ -13,7 +13,7 @@
                             <h5>{{ $comic['series'] }}</h5>
                             <h6>{{ $comic['type'] }}</h6>
                             <a href="{{ url('/comic/' . urlencode($comic['title'])) }}">
-                                <button class="buy-button">BUY - {{ $comic['price'] }}</button>
+                                <button class="buy-button">INFO</button>
                             </a>
                         </div>
                     </div>
