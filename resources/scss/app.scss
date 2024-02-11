@@ -193,6 +193,7 @@
         background-color: $background-color;
         border: 1px solid $border-color;
         display: flex;
+        padding-bottom: 70px;
 
         .details-container{
             background-color: $background-color;
@@ -265,6 +266,35 @@
             }
         }
     }
+    .feature-bar {
+        background-color: $border-color;
+        .feature-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px 0;
+
+          .feature-item {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            margin: 0 20px;
+            .feature-icon {
+              margin-right: 10px;
+              width: 36px;
+              height: auto;
+
+
+            }
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
 
 
 //////////////////////////////////////////////////////

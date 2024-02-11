@@ -34,7 +34,6 @@
                 <h3>Talent</h3>
                 <div class="block">
                     <div class="line"></div>
-
                     <span class="title">Art by:</span>
                     @foreach ($comic['artists'] as $artist)
                         <span class="names">{{ $artist }}</span>
@@ -47,6 +46,7 @@
                     @foreach ($comic['writers'] as $writer)
                         <span class="names">{{ $writer }}</span>
                     @endforeach
+                    <div class="line"></div>
                 </div>
             </div>
 
@@ -75,6 +75,25 @@
 
 
             </div>
+        </div>
+    </div>
+    <div class="feature-bar">
+        <div class="feature-container">
+            <a href="#" class="feature-item">
+                <img src="/img/buy-comics-digital-comics.png" alt="Digital Comics" class="feature-icon"> DIGITAL COMICS
+            </a>
+            <a href="#" class="feature-item">
+                <img src="/img/buy-comics-merchandise.png" alt="DC Merchandise" class="feature-icon"> MERCHANDISE
+            </a>
+            <a href="#" class="feature-item">
+                <img src="/img/buy-comics-subscriptions.png" alt="Subscription" class="feature-icon"> SUBSCRIPTION
+            </a>
+            <a href="#" class="feature-item">
+                <img src="/img/buy-comics-shop-locator.png" alt="Comic Shop Locator" class="feature-icon"> SHOP LOCATOR
+            </a>
+            <a href="#" class="feature-item">
+                <img src="/img/buy-dc-power-visa.svg" alt="DC Power Visa" class="feature-icon"> POWER VISA
+            </a>
         </div>
     </div>
 @endsection
