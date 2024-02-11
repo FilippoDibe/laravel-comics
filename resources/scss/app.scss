@@ -185,9 +185,87 @@
         }
 
     }
-    .spec-container{
+    $background-color: #f8f8f8;
+    $text-color: #1f1f1f;
+    $border-color: #dcdcdc;
+    .container{
+        max-width: 100%;
+        background-color: $background-color;
+        border: 1px solid $border-color;
         display: flex;
+
+        .details-container{
+            background-color: $background-color;
+            width: 60%;
+            margin-left: 100px;
+            .talent, .specs{
+                .line{
+                    max-width: 100%;
+                    margin-top:30px;
+                    margin-bottom:25px;
+                    border-top:1px solid $border-color
+                }
+                h3{
+                    color: #0056b3;
+                    padding-top: 30px;
+                }
+
+                text-align: start;
+                .block {
+                    .title {
+                      font-weight: bold;
+                      color: #000;
+                      margin-right: 5px;
+                    }
+                    .line{
+                        max-width: 100%;
+                        margin-top:30px;
+                        margin-bottom:25px;
+                        border-top:1px solid $border-color
+                    }
+
+                    .names {
+                      color: #0275d8;
+                      margin-right: 0px;
+                      font-size: 15px;
+
+                      &:not(:last-child)::after {
+                        content: ',';
+                        margin-right: 0px;
+                      }
+                    }
+
+
+                  }
+                  #written{
+                    margin-bottom: 30px;
+                  }
+                  .block-spec{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 60%;
+
+                    .title {
+                        font-weight: bold;
+                        color: #000;
+                        margin-right: 5px;
+                      }
+                    .specs-info{
+                        font-size:20px;
+                        color: #0275d8;
+
+
+                    }
+
+                  }
+                  #last-spec{
+                    margin-bottom:30px;
+                  }
+
+            }
+        }
     }
+
 
 //////////////////////////////////////////////////////
 
